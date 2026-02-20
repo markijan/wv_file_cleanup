@@ -3,7 +3,7 @@
 return [
     'file_WvFileCleanupCleanup' => [
         'parent' => 'file',
-        'access' => 'user,group',
+        'access' => 'user',
         'workspaces' => 'online,custom',
         'path' => '/file/wvfilecleanup',
         'icon' => 'EXT:wv_file_cleanup/Resources/Public/Icons/module-cleanup.svg',
