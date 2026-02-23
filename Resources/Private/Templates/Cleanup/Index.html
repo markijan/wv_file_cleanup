@@ -57,7 +57,7 @@
                                 </f:if>
                             </td>
                             <td nowrap="nowrap" class="col-title">
-                                {file.name->f:format.crop( maxCharacters:30 )}
+                                {file.name}
                                 <f:if condition="{checkboxes.displayThumbs.checked}">
                                     <f:if condition="{file.isImage}">
                                         <br>
