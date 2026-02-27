@@ -56,6 +56,9 @@
                                 </f:else>
                                 </f:if>
                             </td>
+                            <td nowrap="nowrap" class="col-path">
+                                {file.path}
+                            </td>
                             <td nowrap="nowrap" class="col-title">
                                 {file.name}
                                 <f:if condition="{checkboxes.displayThumbs.checked}">
@@ -64,9 +67,6 @@
                                         <f:image image="{file.resource}" maxWidth="64" maxHeight="43" />
                                     </f:if>
                                 </f:if>
-                            </td>
-                            <td nowrap="nowrap" class="col-path">
-                                {file.path}
                             </td>
                             <td nowrap="nowrap">{file.extension}</td>
                             <td nowrap="nowrap">{file.lastModified}</td>
